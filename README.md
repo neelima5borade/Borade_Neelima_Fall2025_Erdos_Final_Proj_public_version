@@ -37,44 +37,44 @@ This project compares two volatility modeling approaches—**GARCH(1,1)** and **
 
 - notebooks/
     - 01_data_fetch.ipynb       
-    # Fetch and save raw/processed data
+      -  Fetch and save raw/processed data
     - 02_exploration.ipynb     
-     # Explore/plot data (price, returns volatility)
+      -  Explore/plot data (price, returns volatility)
     - 03_split_data.ipynb      
-     # Call function and perform rain/test split 
+      - Call function and perform rain/test split 
     - 04_modeling.ipynb        
-     # Fit GARCH(1,1) and SV model and compute vol
+      - Fit GARCH(1,1) and SV model and compute vol
     - 05_analysis.ipynb         
-    # Evaluate model performance, plot results
+      - Evaluate model performance, plot results
     - 06_metrics.ipynb          
-    # compare models using and plotting some metrics
+      - compare models using and plotting some metrics
     -  data/              
-    # Store CSV files
+      - Store CSV files
         - splits/
-    # train and test CSVs
+      - train and test CSVs
     - plot/ 
-    # store plots
+       - store plots
     - models/
-    # model train  CSVs for both pre-covid and covid  CSVs
-    # optimal parameters/fit from NLL computaiton
+       - model train  CSVs for both pre-covid and covid  CSVs
+       - optimal parameters/fit from NLL computaiton
     - results/
         - garch/
-        # test CSV
+           - test CSV
         - sv/
-        # test CSV
+           - test CSV
         - merged_test/
-        # merged test CSV
+           - merged test CSV
 
 
 - modules/
     - data_utils.py          
-    # Data handling functions   
+       - Data handling functions   
     - sv _utils.py     
-    # SV model + fitting
+       - SV model + fitting
     - garch_utils.py   
-    # GARCH model + fitting         
+       - GARCH model + fitting         
     - plot_utils.py   
-    # Visualization utilities
+       - Visualization utilities
 
 
 
