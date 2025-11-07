@@ -1,0 +1,7 @@
+asset,train_start,train_end,test_start,test_end,n_train,n_test,train_path,test_path
+FX_USDINR,2013-06-06,2019-06-05,2019-06-06,2025-10-29,1561,1667,data/splits/FX_USDINR_train.csv,data/splits/FX_USDINR_test.csv
+FX_USDINR,2017-06-30,2020-04-15,2020-04-16,2025-10-29,726,1442,data/splits/FX_USDINR_traincovid.csv,data/splits/FX_USDINR_testcovid.csv
+BOND_BNDX,2013-06-06,2019-06-05,2019-06-06,2025-10-29,1510,1610,data/splits/BOND_BNDX_train.csv,data/splits/BOND_BNDX_test.csv
+BOND_BNDX,2017-06-30,2020-04-15,2020-04-16,2025-10-29,702,1393,data/splits/BOND_BNDX_traincovid.csv,data/splits/BOND_BNDX_testcovid.csv
+COM_CRUDE,2013-06-06,2019-06-05,2019-06-06,2025-10-29,1498,1613,data/splits/COM_CRUDE_train.csv,data/splits/COM_CRUDE_test.csv
+COM_CRUDE,2017-06-30,2020-04-15,2020-04-16,2025-10-29,702,1396,data/splits/COM_CRUDE_traincovid.csv,data/splits/COM_CRUDE_testcovid.csv
